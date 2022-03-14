@@ -12,7 +12,9 @@
             <div class=" col-xl-8 col-lg-8 col-md-8 col-12-9">
                <div class="text-bg">
                   <h1>Shine Bright<br> <span class="white1">Like A Diamond</span></h1>
-                  <p>The beauty of a woman must be seen from in her eyes, because that is the doorway to her heart, the place where love resides.</p>
+                  <p>Just like each fingerprint is unique,so is Your Skin.
+                     At BeautyCare, we make the complicated so simple,
+                     for Everyone!</p>
                   <a href="produk">Buy Now</a>
                </div>
             </div>
