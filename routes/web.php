@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\BarangController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'beranda']);
 Route::get('/beranda', [PageController::class, 'beranda']);
-Route::get('/produk', [PageController::class, 'produk']);
+Route::get('/produk', [BarangController::class, 'index']);
 Route::get('/klien', [PageController::class, 'klien']);
 Route::get('/tim', [PageController::class, 'tim']);
 Route::get('/supplier', [PageController::class, 'supplier']);
