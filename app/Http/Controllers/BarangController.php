@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class BarangController extends Controller
 {
     public function index(){
-        $barangs = Barang::all();
+        $barangs = Barang::where('status','Ada')->get();
 
         return view('produk')
-            ->with('title', 'Produk')
+            ->with('title', ' - Produk')
             ->with('barangs', $barangs);
     }
 }
