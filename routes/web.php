@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/', [PageController::class, 'beranda']);
 Route::get('/beranda', [PageController::class, 'beranda']);
 Route::get('/produk', [PageController::class, 'produk']);
 Route::get('/klien', [PageController::class, 'klien']);
