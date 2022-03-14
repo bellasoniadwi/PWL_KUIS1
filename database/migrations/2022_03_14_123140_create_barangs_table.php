@@ -19,7 +19,7 @@ class CreateBarangsTable extends Migration
             $table->string('gambar',255);
             $table->text('konten');
             $table->float('harga');
-            $table->boolean('status')->default(false);
+            $table->string('status',100);
             $table->timestamps();
         });
     }
