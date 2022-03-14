@@ -24,7 +24,7 @@
                   
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                       <div class="our_img">
-                         <figure><img src="images/our_img1.jpg" alt="#"/></figure>
+                         <figure><img src="{{ asset('style/images/our_img1.jpg')}}" alt="#"/></figure>
                       </div>
                    </div>
                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">

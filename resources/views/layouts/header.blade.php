@@ -16,7 +16,7 @@
                         <div class="full">
                            <div class="center-desk">
                               <div class="logo">
-                                 <a href="index.html"><img src="{{ asset('style/images/logo.png')}}" alt="#" /></a>
+                                 <a href="/beranda"><img src="{{ asset('style/images/logo.png')}}" alt="logo beauty care" /></a>
                               </div>
                            </div>
                         </div>
@@ -30,6 +30,18 @@
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
                                     <a class="nav-link" href="/beranda"> Beranda  </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="/produk"> Produk  </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="/klien"> Klien  </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="/supplier"> Supplier  </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="/tim"> Tim  </a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="/tentang">Tentang</a>
@@ -47,25 +59,7 @@
             <!-- end header inner -->
             <!-- end header -->
 
-            <!-- banner -->
-            <section class="banner_main">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class=" col-xl-8 col-lg-8 col-md-8 col-12-9">
-                        <div class="text-bg">
-                           <h1>Blog<br> <span class="white1">Landing Page 2019</span></h1>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                           <a href="#">Read More</a>
-                        </div>
-                     </div>
-                     <div class="col-xl-4 col-lg-4 col-md-4 col-12-3">
-                        <div class="text-img">
-                           <figure><img src="{{ asset('style/images/box_img.png')}}" alt="#"/></figure>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+         @yield('banner')
          </div>
       </header>
-      <!-- end banner -->
+      
