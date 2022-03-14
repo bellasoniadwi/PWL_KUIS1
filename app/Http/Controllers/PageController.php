@@ -10,10 +10,10 @@ class PageController extends Controller
     {
         return view('beranda', ['title' => '- Beranda']);
     }
-    public function produk()
-    {
-        return view('produk', ['title' => '- Produk']);
-    }
+    // public function produk()
+    // {
+    //     return view('produk', ['title' => '- Produk']);
+    // }
     public function klien()
     {
         return view('klien', ['title' => '- Klien' ]);
