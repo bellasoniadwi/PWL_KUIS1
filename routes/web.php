@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/beranda', [PageController::class, 'beranda']);
+Route::get('/produk', [PageController::class, 'produk']);
+Route::get('/klien', [PageController::class, 'klien']);
+Route::get('/tim', [PageController::class, 'tim']);
+Route::get('/supplier', [PageController::class, 'supplier']);
+Route::get('/tentang', [PageController::class, 'tentang']);
+Route::get('/hubungi', [PageController::class, 'hubungi']);
