@@ -4,6 +4,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\TimController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,7 +23,7 @@ Route::get('/', [PageController::class, 'beranda']);
 Route::get('/beranda', [PageController::class, 'beranda']);
 Route::get('/produk', [BarangController::class, 'index']);
 Route::get('/klien', [PelangganController::class, 'index']);
-Route::get('/tim', [PageController::class, 'tim']);
+Route::get('/tim', [TimController::class, 'index']);
 Route::get('/supplier', [SupplierController::class, 'index']);
 Route::get('/tentang', [PageController::class, 'tentang']);
 Route::get('/hubungi', [PageController::class, 'hubungi']);
