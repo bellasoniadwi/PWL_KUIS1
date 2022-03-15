@@ -17,9 +17,10 @@
          </div>
       </div>
       <!-- three section -->
-      @foreach($suppliers as $s)
+      
       <div class="row">
-         <div class="col-md-3 padding_bottom2">
+         @foreach($suppliers as $s)
+         <div class="col-md-4 padding_bottom2">
            <div class="our_img">
             <figure><img src="{{ $s->gambar}}"/></figure>
            </div>
@@ -31,8 +32,10 @@
                <p>{{ $s->alamat }}</p>
             </div>
          </div>
+         @endforeach
+         <br>
       </div>
-      @endforeach
+      
       <!-- end three section -->
    </div>
 </div>
