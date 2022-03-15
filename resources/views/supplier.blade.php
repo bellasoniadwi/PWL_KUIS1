@@ -19,14 +19,14 @@
       <!-- three section -->
       @foreach($suppliers as $s)
       <div class="row">
-         <div class="col-md-6 padding_bottom2">
+         <div class="col-md-3 padding_bottom2">
            <div class="our_img">
-              <figure><img src="{{ $s->gambar}}" alt="#"/></figure>
+            <figure><img height = "150" width = "150" src="{{ $s->gambar}}"/></figure>
            </div>
            <div class="our_text_box three_box">
                <div class="post_box d_flex padding_top3">
                   <h4 class="flot_left1">{{ $s->kategori }}</h4>
-                  <h3 class="awesome padding_flot">{{ $s->nama}}</h3>
+                  <h3 class="awesome flot_left1"><br>{{ $s->nama}}</h3>
                </div>
                <p>{{ $s->alamat }}</p>
             </div>
