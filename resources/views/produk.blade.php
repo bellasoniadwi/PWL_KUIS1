@@ -47,13 +47,13 @@
       </div>
       @endforeach
       <div>
-         Showing
+         <p>Showing
          {{$barangs->firstItem()}}
          to
          {{$barangs->lastItem()}}
          of
          {{$barangs->total()}}
-         entries
+         entries</p>
       </div>
       <div class="pull-right">
          {{$barangs->links()}}
