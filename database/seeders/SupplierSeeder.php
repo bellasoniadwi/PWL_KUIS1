@@ -17,7 +17,7 @@ class SupplierSeeder extends Seeder
             [
                 'kategori' => 'Company',
                 'nama' => 'PT KOSMETIKA GLOBAL INDONESIA',
-                'foto' => 'https://images.glints.com/unsafe/768x0/glints-dashboard.s3.amazonaws.com/company-logo/6da356484c09a579fd4775460d903328.jpg',
+                'gambar' => 'https://yt3.ggpht.com/ytc/AKedOLSv_UQkHD2UbaldXtZVHbhZm1kEGrmP0z7jNNTj=s900-c-k-c0x00ffffff-no-rj',
                 'alamat' => 'Surabaya, Indonesia'
             ],
 

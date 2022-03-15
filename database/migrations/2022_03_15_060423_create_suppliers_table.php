@@ -17,7 +17,7 @@ class CreateSuppliersTable extends Migration
             $table->id();
             $table->string('kategori', 255);
             $table->string('nama', 255);
-            $table->string('foto',255);
+            $table->string('gambar',255);
             $table->string('alamat',255);
             $table->timestamps();
         });

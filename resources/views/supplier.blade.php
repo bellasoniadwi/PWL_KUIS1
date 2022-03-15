@@ -11,8 +11,8 @@
       <div class="row">
          <div class="col-md-12">
             <div class="titlepage">
-               <h2>Our Blogs</h2>
-               <span>It is a long established fact that a reader will be distracted by the readable content of a page </span>
+               <h2>Mitra Kami</h2>
+               <span>Sebuah kehormatan dapat berkolaborsi dengan pihak-pihak ternama untuk memberikan hasil yang terbaik </span>
             </div>
          </div>
       </div>
@@ -24,11 +24,8 @@
               <figure><img src="{{ $s->gambar}}" alt="#"/></figure>
            </div>
            <div class="our_text_box three_box">
-              <div>
-               <h4 class="flot_left1">{{ $s->kategori }}</h4>
-              </div>
                <div class="post_box d_flex padding_top3">
-                  
+                  <h4 class="flot_left1">{{ $s->kategori }}</h4>
                   <h3 class="awesome padding_flot">{{ $s->nama}}</h3>
                </div>
                <p>{{ $s->alamat }}</p>
