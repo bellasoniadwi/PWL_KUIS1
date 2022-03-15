@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class BarangController extends Controller
 {
     public function index(){
-        $barangs = Barang::where('status','Ada')->get();
+        $barangs = Barang::paginate(3);
 
         return view('produk')
             ->with('title', ' - Produk')
