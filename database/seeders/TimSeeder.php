@@ -15,12 +15,18 @@ class TimSeeder extends Seeder
     {
         $data=[
             [
-                'kategori' => 'Perusahaan',
-                'nama' => 'PT KOSMETIKA GLOBAL INDONESIA',
-                'gambar' => 'https://yt3.ggpht.com/ytc/AKedOLSv_UQkHD2UbaldXtZVHbhZm1kEGrmP0z7jNNTj=s900-c-k-c0x00ffffff-no-rj',
-                'alamat' => 'Surabaya, Indonesia'
+                'nama' => 'Anjani Dwilestari',
+                'foto' => 'https://th.bing.com/th/id/OIP.NkPEwrnxewCTiGmF_kxv_wHaHZ?pid=ImgDet&rs=1',
+                'posisi' => 'System Analist',
+                'deskripsi' => 'Seorang analis sistem selalu menghadirkan solusi-solusi terbaik'
+            ],
+            [
+                'nama' => 'Bella Sonia Dwi Angelina',
+                'foto' => 'https://cdn-images.livecareer.es/pages/foto_cv_lc_es_7.jpg',
+                'posisi' => 'System Developer',
+                'deskripsi' => 'Seorang pengembang cerdas yang menghadirdan inovasi-inovasi kreatif'
             ],
         ];
-        \DB::table('suppliers')->insert($data);
+        \DB::table('tims')->insert($data);
     }
 }
