@@ -46,8 +46,19 @@
          </div>
       </div>
       @endforeach
+      <div>
+         Showing
+         {{$barangs->firstItem()}}
+         to
+         {{$barangs->lastItem()}}
+         of
+         {{$barangs->total()}}
+         entries
+      </div>
+      <div class="pull-right">
+         {{$barangs->links()}}
+      </div>
 <!-- end first section -->
-
     </div>
 </div>
  <!-- end blog_main -->
