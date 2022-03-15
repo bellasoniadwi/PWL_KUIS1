@@ -35,11 +35,6 @@
 
          @yield('content')
 
-            
-      
-    
-      
-
       @include('layouts.footer')
       
       <!-- Javascript files-->
