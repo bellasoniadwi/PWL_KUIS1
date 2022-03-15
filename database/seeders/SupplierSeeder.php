@@ -22,6 +22,6 @@ class SupplierSeeder extends Seeder
             ],
 
         ];
-        \DB::table('suplliers')->insert($data);
+        \DB::table('suppliers')->insert($data);
     }
 }
