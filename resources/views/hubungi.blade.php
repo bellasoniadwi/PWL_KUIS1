@@ -12,7 +12,7 @@
           <div class="col-md-12">
              <div class="titlepage">
                 <h2>Contact us</h2>
-                <span>There are many variations of passages of Lorem Ipsum available, but the </span>
+                <span>Ada yang ingin disampaikan kepada kami para tim BeautyCare? Tulis disini yaaa</span>
              </div>
           </div>
        </div>
@@ -32,7 +32,7 @@
                       <input class="form_contril" placeholder="Email" type="text" name="Email">
                    </div>
                    <div class="col-md-12">
-                      <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                     <input class="form_contril" placeholder="Message" type="text" name="Message">
                    </div>
                    <div class="col-sm-12">
                       <button class="send_btn">Send</button>
