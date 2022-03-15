@@ -54,7 +54,7 @@ class BarangSeeder extends Seeder
             ],
             [
                 'nama' => 'Mascara Maybelline',
-                'gambar' => 'https://www.maybelline.co.id/~/media/mny/id_id/eyes/mascara/hypercurl%20mascara/hypercurl-mascara-5.jpg?h=250&thn=1&w=175&hash=18B2BAEFFEA2C0A5211F9C50035BF618F9C46C70|hypercurl%20mascara',
+                'gambar' => 'https://api.watsons.co.id/medias/zoom-front-96182.jpg?context=bWFzdGVyfGZyb250L3pvb218ODU0MjB8aW1hZ2UvanBlZ3xmcm9udC96b29tL2hkYy9oOWIvODk3MDgxNjc4MjM2Ni5qcGd8MTAwNDljNWIzOTE0NTY1MDUxNzVjMmMwYTVmYTBmMjk0ZTVhYmYyMGIyZDY4YTdmZDRmNjJjMDFkMmQ5Y2MwMg',
                 'konten' => 'Maybelline Hypercurl Mascara adalah maskara waterproof dengan formula yang dapat melentikkan dan menebalkan bulu mata hingga 4 kali. Tahan hingga 24 jam* dan nyaman dipakai seharian.',
                 'harga' => 69000,
                 'status' => 'Ada'
