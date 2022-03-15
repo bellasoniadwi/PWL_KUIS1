@@ -29,7 +29,7 @@ class SupplierSeeder extends Seeder
             [
                 'kategori' => 'Perusahaan',
                 'nama' => 'PT PESONA NATASHA GEMILANG',
-                'gambar' => 'https://3.bp.blogspot.com/-i_Mka9H18dE/UEtQ7WOeaCI/AAAAAAAAH78/PFcy32ma8nA/s1600/miracle+aesthetic+clinic+logo.jpg',
+                'gambar' => 'https://s1.bukalapak.com/pavilion/logos/6395/medium/natasha_4BL.jpg',
                 'alamat' => 'Yogyakarta, Indonesia'
             ],
             [

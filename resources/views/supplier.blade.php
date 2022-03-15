@@ -21,7 +21,7 @@
       <div class="row">
          <div class="col-md-3 padding_bottom2">
            <div class="our_img">
-            <figure><img height = "150" width = "150" src="{{ $s->gambar}}"/></figure>
+            <figure><img src="{{ $s->gambar}}"/></figure>
            </div>
            <div class="our_text_box three_box">
                <div class="post_box d_flex padding_top3">
