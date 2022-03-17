@@ -55,7 +55,7 @@
                         <p>BeautyCare didirikan pada tahun 1987. Nama tersebut diambil dari bahasa Inggris yang berarti perawatan wajah.
                            Ide untuk mendirikan BeautyCare ini berawal dari banyaknya konsumen wanita yang sudah membutuhkan kosmetik dan pada saat itu toko
                            kosmetik masih dibilang jarang. BeautyCare awalnya adalah sebuah kios kecil biasa yang menjual merk dagang dalam negri. Seiring berkembangnya
-                           waktu, kebutuhan akan penunjang kecantikan khususnya bagi kaum wanita semakin bertambah. Pada saat ini Kartika Kosmetik sudah banyak menjual produk
+                           waktu, kebutuhan akan penunjang kecantikan khususnya bagi kaum wanita semakin bertambah. Pada saat ini BeautyCare sudah banyak menjual produk
                            dalam dan luar negri seperti : Rista, Wardah, Ponds, LaTulipe, Tloac Paris, Tull Jye, Tje Fuk, jade, Bless dan lain-lain. Hingga akhirnya sampai sekarang
                            BeautyCare merupakan the most complete cosmetic shop in the town!</p>
                      </div>
