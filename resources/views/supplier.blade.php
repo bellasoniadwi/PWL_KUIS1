@@ -35,7 +35,18 @@
          @endforeach
          <br>
       </div>
-      
+      <div>
+         <p><br>Showing
+         {{$suppliers->firstItem()}}
+         to
+         {{$suppliers->lastItem()}}
+         of
+         {{$suppliers->total()}}
+         entries</p>
+      </div>
+      <div class="pull-right">
+         {{$suppliers->links()}}
+      </div>
       <!-- end three section -->
    </div>
 </div>
